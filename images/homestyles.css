@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Header Styles*/
+
+/* Navigation List Styles */
+ nav a {
+	 text-decoration:none;
+	 font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	 
+ }
+ 
+ 
+nav li{
+	
+	list-style:none;
+	font-size: 87.5%;
+	float: left;
+	text-align:center;
+	width: 20%;
+		
+}
+
+nav li {
+	color:gray;
+	
+
+}
+
+nav li:hover{
+	color:black;
+}
+
+
+body {
+	margin-top: 100px;
+	background-color:white; }
+	
+ p {
+	color:black;
+	background-color:gray;
+}
+
+#packages{
+	color:black;
+	background-color:gray;}
+	
+	
+	/*Setion Styles*/
+	
+	#featured {
+		
+		display:block;
+		float:left;
+		padding-left: 260px;
+		
+	}
+	
+	 #promo {
+		 
+		 display:block;
+		float:left;
+		padding-left: 155px;
+		
+		
+	}
+	
+	
+	#portfolio{
+		display:block;
+		float:left;
+		padding-right:400px;
+		padding-left:200px;
+		background-color:gray;
+		
+	}
+	
+	#Family {
+		display:block;
+		float:left;
+		padding-left:50px;
+	}
+	
+	#Children{
+		display:block;
+		float:left;
+		padding-left:50px;
+	}
+	
+	#Weddings{
+		display:block;
+		float:left;
+		padding-left:;
+	}
+	
+	#Birthdays{
+		display:block;
+		float:left;
+	}
+	
+	#Newborn{
+		display:block;
+		float:left;
+	}
+	
+	#Seasonal{
+		display:block;
+		float:left;
+	}
+	
+
+	footer{
+		display:block;
+		margin-top: 450px;
+		background-color:#EBEBEB;
+		height: 100px;
+		color:#A8A7A2;
+		text-align:center;
+	}
+	
+	

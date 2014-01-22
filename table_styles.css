@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Table Styles*/
+
+
+#pattern-style-b
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 45px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+	background-color:#CECDCB;
+}
+#pattern-style-b thead tr
+{
+	background: ;
+	border: grey 5px solid;
+}
+#pattern-style-b th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	border-bottom: 1px solid #fff;
+	color:black;
+}
+#pattern-style-b td
+{
+	padding: 8px; 
+	border-bottom: 1px solid #fff;
+	background-color:#F4F4F4;
+	color:black;
+	border: grey 5px solid;
+}

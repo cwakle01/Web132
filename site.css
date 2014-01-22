@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Layout*/
+
+html {
+	margin: 0;
+	padding: 0;
+	background:#EFEFEF;
+}
+
+body {
+	width: 940px;
+	margin: 0 auto;
+	font: 10pt/1.5em Helvetica,"Helvetica neue", Arial, sans-serif;
+}
+
+/*HTML 5 specific*/
+header,section,article,aside,footer{
+	display: block;
+	color: #333333;
+}
+
+h1  {
+	font: 20pt Helvetica,"Helvetica neue", Arial, sans-serif;
+	background:enter top no-repeat;
+	text-align: center;
+	text-transform: uppercase;
+	color:#333333;
+	padding-top: 15px ;
+
+
+}
+
+/* Navigation List Styles */
+ nav a {
+	 text-decoration:none;
+	 font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	 
+ }
+ 
+ 
+nav li{
+	
+	list-style:none;
+	font-size: 15px;
+	float: left;
+	text-align:center;
+	width: 20%;
+		
+}
+
+nav li {
+	color:gray;
+	
+
+}
+
+nav li:hover{
+	color:black;
+}
+
+aside{
+	float: left;
+	width: 470px;
+	min-height: 480px;
+	background: url(../images/aside-bg.png) center top no-repeat;
+	margin: 0 0 20px 0;
+	link color:#9F2527;
+}
+section{
+	float: right;
+	width: 428px;
+	padding-left: 20px;
+	margin: 0 0 20px 0px;
+	border-left: 2px dotted #b2a497;
+
+}
+
+section h2 {
+	font: 14pt Helvetica,"Helvetica neue", Arial, sans-serif;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: #493831;
+	padding-bottom: 10px;
+	margin: 0;
+}
+footer{
+	clear:both;
+	width:1024px;
+	height: 75px;
+	padding: 0px;
+	color:#FFFFBF;
+	background:#333333;
+	text-align:center;}
+	
+a:link {color:#FFFFBF;}      /* unvisited link */
+a:visited {color:#00FF00;}  /* visited link */
+a:hover {color:#FF00FF;}  /* mouse over link */
+a:active {
+	color: #FF6700;
+}  /* selected link */  
+
+	
