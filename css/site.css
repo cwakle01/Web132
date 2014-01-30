@@ -1,0 +1,155 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Duru+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+/* CSS Document */
+
+/*Layout*/
+
+html {
+	margin: 0;
+	padding: 0;
+	background:#EFEFEF;
+}
+
+body {
+	font: 10pt/1.5em "Open Sans", Helvetica,"Helvetica neue", Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#all {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+/*HTML 5 specific*/
+header,section,article,aside,footer{
+	display: block;
+	color: #333333;
+}
+
+.img-wrap img {
+	max-width: 100%;
+	height: auto;
+	margin: 10px;
+}
+
+.img-square img {
+	width: 95%;
+	padding: 6px;
+	border: 1px solid #ccc;
+}
+
+h1  {
+	font-size: 20pt;
+	font-family: "Duru Sans", Helvetica,"Helvetica neue", Arial, sans-serif;
+	background:enter top no-repeat;
+	text-align: center;
+	text-transform: uppercase;
+	color:#333333;
+	padding-top: 15px ;
+}
+
+nav {
+	text-align: center;
+}
+
+/* Navigation List Styles */
+ nav a {
+	 text-decoration:none;
+	 font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+ }
+ 
+nav ul {
+	padding: 0;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
+}
+ 
+nav li {
+	list-style:none;
+	font-size: 15px;
+/* 	float: left; */
+	display: inline-block;
+	text-align:center;
+	margin: 0 auto;
+	padding: 0 20px;		
+}
+
+.horizontalNAV li a {
+	color: #444;
+	border-right: 2px solid #555;
+	border-left: 2px solid #555;
+	padding: 0 6px;
+}
+
+.horizontalNAV li a:hover {
+	color: black;
+}
+
+/* aside{
+	float: left;
+	width: 470px;
+	min-height: 480px;
+	background: url(../images/aside-bg.png) center top no-repeat;
+	margin: 0 0 20px 0;
+	link color:#9F2527;
+} */
+
+section {
+	float: left;
+	width: 50%;
+/* 	padding-left: 20px; */
+/* 	margin: 0 0 20px 0px; */
+/* 	border-left: 2px dotted #b2a497; */
+}
+
+.reviews h1 {
+	margin: 20px 0;
+}
+
+.reviews p {
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 0.5em;
+	padding: 1em;
+}
+
+.reviews p span {
+	display: block;
+/* 	float: right; */
+/* 	margin-top: 1em; */
+	font-weight: normal;	
+}
+
+.reviews p:nth-child(2n) {
+	background-color: #ccc;
+}
+
+section h2 {
+	font: 14pt Helvetica,"Helvetica neue", Arial, sans-serif;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: #493831;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+footer{
+	clear:both;
+	width:1024px;
+	height: 75px;
+	padding: 0px;
+	color:#FFFFBF;
+	background:#333333;
+	text-align:center;}
+	
+a:link {color:#FFFFBF;}      /* unvisited link */
+a:visited {color:#00FF00;}  /* visited link */
+a:hover {color:#FF00FF;}  /* mouse over link */
+a:active {
+	color: #FF6700;
+}  /* selected link */  
+
+	
