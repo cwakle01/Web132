@@ -22,6 +22,18 @@ body {
 	margin: 0 auto;
 }
 
+$('#navigation').slimmenu(
+{
+    resizeWidth: '800',
+    collapserTitle: 'Main Menu',
+    animSpeed: 'medium',
+    easingEffect: null,
+    indentChildren: false,
+    childrenIndenter: '&nbsp;'
+});
+
+
+
 /*HTML 5 specific*/
 header,section,article,aside,footer{
 	display: block;

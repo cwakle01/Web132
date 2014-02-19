@@ -8,23 +8,53 @@
 <link href="css/small.css" rel="stylesheet" type="text/css">
 <link href="css/med.css" rel="stylesheet" type="text/css">
 <link href="css/large.css" rel="stylesheet" type="text/css">
+<link href="css/slimmenu.css" rel="stylesheet" type="text/css">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
 </head>
+
+
 <body>
-	<div id="all">
+
+    <div id="all">
   <header>
       <a href="home.htm">
-      	<img name="homepage" src="images/homepage.gif" width="100%" alt="Chelsea Wakley Photography Portfolio">
+        <img name="homepage" src="images/homepage.gif" width="100%" alt="Chelsea Wakley Photography Portfolio">
       </a>
+      
+<ul class="slimmenu">
+    <li>
+        <a href="home.htm">Home</a>
+        <ul>
+            <li>
+                <a href="#">Slim Menu 1.1</a>
+                <ul>
+                    <li><a href="#">Slim Menu 1.1.1</a></li>
+                    <li>
+                        <a href="#">Slim Menu 1.1.2</a>
+                        <ul>
+                            <li><a href="#">Slim Menu 1.1.2.1</a></li>
+                            <li><a href="#">Slim Menu 1.1.2.2</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Slim Menu 1.2</a></li>
+        </ul>
+    </li>
+    
+    
+    <li><a href="portfolio.htm">Portfolio</a></li>
+    <li>
+        <a href="rates.htm">Rates &amp; Services</a>
+       
+            </li>
+            <li><a href="contact.htm">Contact</a></li>
+        
+    </li>
 
-    <nav class="horizontalNAV">
-      <ul>
-        <li><a href="home.htm">Home</a></li>
-        <li><a href="portfolio.htm">Portfolio</a></li>
-        <li><a href="rates.htm">Rates &amp; Services</a></li>
-        <li><a href="prints.htm">Prints &amp; Packages</a></li>
-        <li><a href="contact.htm">Contact Me</a></li>
-      </ul>
-    </nav>
+</ul>
   </header>
 
   <section>
@@ -34,10 +64,10 @@
       <img src="images/66800_10151851844906424_1699327739_n.jpg" alt="" />
       </div>
       <div class="reviews">
-	      <h1>Reviews</h1>
-	      	<p>We love having Chelsea take our pictures! Her candid shots are amazing! We are so happy with all of the pictures she has taken thus far. <span>--The Green's</span></p>
-			<p>Was able to capture all the colors of the leaves around us, was able to gets everyones' attention to take the pictures and did it in a very timely manner. The pictures she presented to us looked terrific, no complaints what so ever. <span>--The Emery's</span></p>
-			<p>I had a wonderful experience with her as a photography. She works great with kids and always captures a great shot with a smile. Would definitely recomend her to friends and family. <span>--The Bond's</span></p>
+          <h1>Reviews</h1>
+            <p>We love having Chelsea take our pictures! Her candid shots are amazing! We are so happy with all of the pictures she has taken thus far. <span>--The Green's</span></p>
+            <p>Was able to capture all the colors of the leaves around us, was able to gets everyones' attention to take the pictures and did it in a very timely manner. The pictures she presented to us looked terrific, no complaints what so ever. <span>--The Emery's</span></p>
+            <p>I had a wonderful experience with her as a photography. She works great with kids and always captures a great shot with a smile. Would definitely recomend her to friends and family. <span>--The Bond's</span></p>
       </div>
     </article>
   </section>
@@ -46,10 +76,10 @@
     <article>
       <h1>Promotions</h1>
       <div class="img-wrap img-square">
-      	<img src="images/promocard.gif" alt="" />
+        <img src="images/promocard.gif" alt="" />
       </div>
       <div class="img-wrap">
-      	<img src="images/collagepromo.gif" width="98%" alt="" />
+        <img src="images/collagepromo.gif" width="98%" alt="" />
       </div>
     </article>
   </section>
@@ -57,6 +87,20 @@
   <footer>
     <p>&copy; Chelsea Wakley <address>For more information <a href="mailto:chelseawakley@gmail.com">e-mail</a> me!</address></p>
   </footer>
-	</div>
+    </div>
+    
+    <script src="js/jquery.slimmenu.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <script>
+        $('ul.slimmenu').slimmenu({
+            resizeWidth: '800',
+            collapserTitle: 'Main Menu',
+            easingEffect:'easeInOutQuint',
+            animSpeed:'medium',
+            indentChildren: true,
+            childrenIndenter: '&raquo;'
+        });
+    </script>
 </body>
 </html>
